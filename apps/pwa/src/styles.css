@@ -132,6 +132,11 @@
     -webkit-font-smoothing: antialiased;
     -webkit-tap-highlight-color: transparent;
   }
+
+  h1,
+  h2 {
+    font-family: var(--font-display);
+  }
 }
 
 @utility no-scrollbar {
@@ -140,6 +145,11 @@
   &::-webkit-scrollbar {
     display: none;
   }
+}
+
+/* Display typography: page headings and intentional high-emphasis copy. */
+@utility text-display {
+  font-family: var(--font-display);
 }
 
 @utility glow-lime {
