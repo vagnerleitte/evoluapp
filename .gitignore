@@ -1,0 +1,13 @@
+# Dependencies and generated artifacts
+node_modules/
+dist/
+dist-ssr/
+.output/
+.vinxi/
+.tanstack/
+.nitro/
+
+# Local configuration and logs
+*.local
+*.log
+.DS_Store

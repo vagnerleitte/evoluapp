@@ -1,0 +1,20 @@
+{
+  "name": "evolua",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:pwa": "pnpm --dir apps/pwa dev",
+    "build:pwa": "pnpm --dir apps/pwa build",
+    "lint:pwa": "pnpm --dir apps/pwa lint",
+    "format:pwa": "pnpm --dir apps/pwa format"
+  },
+  "packageManager": "pnpm@10.18.2",
+  "engines": {
+    "node": ">=22.0.0",
+    "pnpm": ">=10.0.0"
+  }
+}
